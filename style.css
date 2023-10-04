@@ -1,0 +1,590 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin-bottom: 100px;
+}
+
+ul,
+li {
+    list-style: none;
+    outline: invert;
+}
+
+.container {
+    width: 100%;
+    max-width: 1240px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+
+
+
+.jobply-title span {
+    color: #EE4F3C;
+}
+
+.jobply-title {
+    font-family: 'Perpetua';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #232443;
+    margin-top: 57px;
+}
+
+.jobply-content {
+    display: flex;
+}
+
+.jobply-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.jobply-main li {
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    margin-top: 57px;
+    color: #353540;
+}
+
+.jobply-link {
+    padding: 0 223px;
+}
+
+.jobply-btn {
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    background: #EE4F3C;
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding: 19px 30px;
+    margin-top: 57px;
+    border: none;
+    outline: invert;
+}
+
+.header-title {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 95px;
+    letter-spacing: 0.02em;
+    width: 652px;
+    color: #353540;
+    margin-top: 131px;
+}
+
+.header-text {
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 0.02em;
+    width: 598px;
+    color: #5D5D61;
+    margin-top: 30px;
+}
+
+.header-input {
+    padding: 23px 25px;
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #5D5D61;
+    border: none;
+    outline: invert;
+}
+
+.header-btn {
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    background: #EE4F3C;
+    border-radius: 0px 10px 10px 0px;
+    color: #FFFFFF;
+    padding: 19px 56px;
+    border: 2px solid red;
+    outline: invert;
+}
+
+.header-right {
+    display: flex;
+}
+
+.header-content {
+    display: flex;
+    gap: 154px;
+}
+
+.header-img {
+    width: 100%;
+}
+
+.header-ins {
+    position: absolute;
+    width: 212px;
+    height: 250px;
+    left: 850px;
+    top: 445px;
+    overflow: hidden;
+}
+
+
+.populars {
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(/img/popular.png);
+}
+
+.popular-title {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 75px;
+    letter-spacing: 0.05em;
+    margin-top: 95px;
+    color: #000;
+}
+
+.popular-img {
+    margin-top: 50px;
+}
+
+.viem {
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    margin-top: 70px;
+    color: #FFFFFF;
+    margin-left: 725px;
+}
+
+.job-title {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: 0.05em;
+    margin-top: 150px;
+    color: #353540;
+    margin-bottom: 55px;
+}
+
+.img-job {
+    text-align: center;
+}
+
+.bank-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    padding: 30px;
+    background: #FFF8F8;
+    text-align: center;
+}
+
+.job-content {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.card-title {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    color: #353540;
+    margin-top: 10px;
+}
+
+.card-text {
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #353540;
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+.bun-input {
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    outline: invert;
+    padding: 23px 32px;
+    color: #5D5D61;
+    margin-top: 50px;
+}
+
+.bunner-content {
+    background-color: #EE4F3C;
+    width: 1170px;
+    height: 400px;
+    background: #EE4F3C;
+    border-radius: 20px;
+    padding: 85px 150px;
+    position: absolute;
+    left: 250px;
+    top: 4720px;
+}
+
+.bun-btn {
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    background: #EE4F3C;
+    border-radius: 10px;
+    border: none;
+    outline: invert;
+    color: #FFFFFF;
+    padding: 16px 37px;
+}
+
+.bun-title {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: 0.02em;
+    width: 515px;
+    color: #FFFFFF;
+}
+
+.start-title {
+    margin-top: 372px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: 0.02em;
+
+    color: #353540;
+}
+
+.start-text {
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 0.02em;
+    margin-top: 50px;
+    color: #5D5D61;
+    width: 408px;
+}
+
+.start-btn {
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    margin-top: 70px;
+    padding: 20px 17px;
+    border: 0;
+    outline: invert;
+    background: #EE4F3C;
+    border-radius: 10px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.start-content {
+    display: flex;
+    gap: 77px;
+}
+
+.end-start {
+    margin-top: 150px;
+}
+
+.post {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(/img/popular.png);
+    margin-top: 146px;
+}
+
+.post-content {
+    display: flex;
+    gap: 100px;
+}
+
+.post-title {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: 0.02em;
+    margin-top: 190px;
+    color: #353540;
+}
+
+.post-text {
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 0.02em;
+    margin-top: 50px;
+    width: 408px;
+    color: #5D5D61;
+}
+
+.post-btn {
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    background: #EE4F3C;
+    border-radius: 10px;
+    padding: 20px 58px;
+    color: #FFFFFF;
+    border: none;
+    outline: invert;
+    cursor: pointer;
+    margin-top: 70px;
+}
+
+.post-img {
+    margin-top: 100px;
+}
+
+
+.great-title {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: 0.02em;
+    margin-top: 250px;
+    color: #353540;
+}
+
+.great-content {
+    display: flex;
+    gap: 30px;
+}
+
+.great-card {
+    width: 500px;
+    height: 530px;
+    background: #FFFFFF;
+    box-shadow: 0px 50px 70px #EEEEEE;
+    border-radius: 5px;
+    margin-top: 150px;
+}
+
+.great-img {
+    padding: 65px 42px;
+}
+
+.great-text {
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 0.02em;
+    padding: 0px 42px;
+    color: #5D5D61;
+}
+
+.men {
+    margin-top: 35px;
+    padding: 0 36px;
+}
+
+
+.flex {
+    display: flex;
+    gap: 30px;
+}
+
+.texts2 {
+    margin-top: 80px;
+}
+
+
+
+.bunner {
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(/img/popular.png);
+    margin-top: 241px;
+}
+
+.fot-title span {
+    color: #EE4F3C;
+}
+
+.fot-title {
+    margin-top: 106px;
+}
+
+.fot-text {
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    margin-top: 30px;
+    color: #5D5D61;
+}
+
+.fot-link {
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    text-decoration-line: underline;
+    color: #EE4F3C;
+    margin-top: 10px;
+}
+
+.fotter-content {
+    display: flex;
+    gap: 108px;
+}
+
+.fine {
+    margin-top: 106px;
+}
+
+.flod {
+    margin-top: 5px;
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 50px;
+    letter-spacing: 0.02em;
+
+    color: #5D5D61;
+}
+
+.fotl-title {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    margin-top: 104px;
+    color: #353540;
+}
+
+.fotl-img {
+    margin-top: 30px;
+    width: 70px;
+    height: 70px;
+}
+
+.foll {
+    display: flex;
+    gap: 20px;
+}
+
+.fotl-tit {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #353540;
+    margin-top: 30px;
+    width: 259px;
+}
+
+.hr {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    margin-top: 30px;
+    color: #5D5D61;
+    text-align: center;
+}
